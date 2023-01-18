@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+/*Estilização do cabeçalho e rodapé.*/
+header, footer{
+    width: 100%;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #ED5A0E;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+/*Estilização do título da logo.*/
+.strong{
+    font-weight: bold;
+}
+/*Estilização da página principal.*/
+main{
+    width: 100%;
+}
+/*Estilização das serções.*/
+section{
+    width: 100%;
+    margin: 0 auto;
+}
+/*Estilização da imagem principal.*/
+img:first-child{
+    width: 100%;
+}
+/*Estilizações das serções areas limitadas.*/
+.limita-area{
+    max-width: 1024px;
+}
+/*Estilização do subtítulo.*/
+h2{
+    text-align: center;
+    margin: 20px 0;
+}
+/*Estilização dos parágrafo.*/
+p{
+    line-height: 32px;
+}
+/*Estilização dos parágrafo pseudo-classe.*/
+p:last-child{
+    background-color: #ED5A0E;
+    display: inline;
+    padding: 10px 5px;
+}
+/*Estilização dos span da 3° serção.*/
+.mais-informacoes{
+    display: block;
+    font-weight: bold;
+    margin: 25px 0;
+    padding-left: 10px;
+    border-left: 2px solid #ED5A0E;
+}
+/*Estilização da 4° serção.*/
+.secao-jogos{
+    width: 100%;
+    display: flex;
+    margin: 25px 0px;
+    overflow-x: scroll;
+}
+/*Modificação do tamanho da imagem.*/
+img{
+    width: 350px;
+}
+/*Estilização da serção de figure.*/
+figure{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+}
+/*Estilização do span e figcaption da serção figure.*/
+figure span, figcaption{
+    background-color: #ED5A0E;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 12px 0;
+    padding: 12px 5px;
+}
